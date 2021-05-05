@@ -1,0 +1,14 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { PerfectScrollbarComponent } from './perfect-scrollbar.component';
+import { PerfectScrollbarDirective } from './perfect-scrollbar.directive';
+export class PerfectScrollbarModule {
+}
+PerfectScrollbarModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [CommonModule],
+                declarations: [PerfectScrollbarComponent, PerfectScrollbarDirective],
+                exports: [CommonModule, PerfectScrollbarComponent, PerfectScrollbarDirective]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGVyZmVjdC1zY3JvbGxiYXIubW9kdWxlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vcHJvamVjdHMvbGliL3NyYy9saWIvcGVyZmVjdC1zY3JvbGxiYXIubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDekMsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBRS9DLE9BQU8sRUFBRSx5QkFBeUIsRUFBRSxNQUFNLCtCQUErQixDQUFDO0FBQzFFLE9BQU8sRUFBRSx5QkFBeUIsRUFBRSxNQUFNLCtCQUErQixDQUFDO0FBTzFFLE1BQU0sT0FBTyxzQkFBc0I7OztZQUxsQyxRQUFRLFNBQUM7Z0JBQ04sT0FBTyxFQUFFLENBQUMsWUFBWSxDQUFDO2dCQUN2QixZQUFZLEVBQUUsQ0FBQyx5QkFBeUIsRUFBRSx5QkFBeUIsQ0FBQztnQkFDcEUsT0FBTyxFQUFFLENBQUMsWUFBWSxFQUFFLHlCQUF5QixFQUFFLHlCQUF5QixDQUFDO2FBQ2hGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5cbmltcG9ydCB7IFBlcmZlY3RTY3JvbGxiYXJDb21wb25lbnQgfSBmcm9tICcuL3BlcmZlY3Qtc2Nyb2xsYmFyLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBQZXJmZWN0U2Nyb2xsYmFyRGlyZWN0aXZlIH0gZnJvbSAnLi9wZXJmZWN0LXNjcm9sbGJhci5kaXJlY3RpdmUnO1xuXG5ATmdNb2R1bGUoe1xuICAgIGltcG9ydHM6IFtDb21tb25Nb2R1bGVdLFxuICAgIGRlY2xhcmF0aW9uczogW1BlcmZlY3RTY3JvbGxiYXJDb21wb25lbnQsIFBlcmZlY3RTY3JvbGxiYXJEaXJlY3RpdmVdLFxuICAgIGV4cG9ydHM6IFtDb21tb25Nb2R1bGUsIFBlcmZlY3RTY3JvbGxiYXJDb21wb25lbnQsIFBlcmZlY3RTY3JvbGxiYXJEaXJlY3RpdmVdXG59KVxuZXhwb3J0IGNsYXNzIFBlcmZlY3RTY3JvbGxiYXJNb2R1bGUge1xufVxuIl19
